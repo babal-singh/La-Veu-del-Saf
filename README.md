@@ -2,7 +2,7 @@
 
 A deterministic conversational assistant for the UAB **Servei d'Activitat Física (SAF)**.
 It answers questions about opening hours, capacities, live occupancy, low-traffic time
-slots and group activities, covering **2026-04-01 to 2026-10-31**.
+slots and group activities, covering **2026-04-01 to 2026-10-31** with traceability to the source.
 
 Demo: https://youtu.be/bL_MfDehktQ
 
