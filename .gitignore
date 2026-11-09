@@ -6,3 +6,9 @@ env/
 .env
 .DS_Store
 .ipynb_checkpoints/
+
+# Chatbot data is never committed (privacy)
+data/
+*.xlsx
+*.xls
+*.csv
