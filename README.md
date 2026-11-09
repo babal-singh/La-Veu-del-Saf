@@ -20,30 +20,11 @@ export UTH_KEY=uth-...
 streamlit run app.py
 ```
 
-## Configuration
 
-Settings are read from environment variables (see `saf/config.py`):
-
-| Variable | Default | Purpose |
-| --- | --- | --- |
-| `SAF_XLSX` | `data/saf.xlsx` | Path to the workbook holding the SAF tables |
-| `UTH_KEY` | *(empty)* | API key for the UAB DCC LLM gateway |
-| `UTH_BASE_URL` | `https://dcc-llm-gw.uab.cat/uabthehack/v1` | Gateway base URL |
-| `UTH_MODEL` | `ornith` | Model name used for phrasing answers |
-
-## Data and privacy
 
 **No data used by the chatbot is uploaded to this repository.** The repo contains only
 source code: the workbook the assistant reads (`data/saf.xlsx`) and anything else under
-`data/` is generated or supplied locally and is never committed, so no SAF records or
-user information leave your machine through this repository.
-
-To get a working dataset, run `python scripts/make_sample_data.py`, which builds a
-**synthetic** `saf.xlsx` locally. Point `SAF_XLSX` at your own workbook to use real data
-— keep that file outside version control.
-
-API keys are likewise read from the environment only and are never stored in the repo.
-
+`data/` is generated or supplied locally.
 ## Layout
 
 ```
